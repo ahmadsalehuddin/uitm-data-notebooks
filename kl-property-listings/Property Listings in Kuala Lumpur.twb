@@ -1,0 +1,1872 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0624.2136                               -->
+<workbook original-version='18.1' source-build='2022.2.0 (20222.22.0624.2136)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='edited_property_kl' inline='true' name='federated.0bmdmns0trt30418twafw1x2pkcp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='edited_property_kl' name='textscan.1icjivs0rr9uil134vvvv0c6ix12'>
+            <connection class='textscan' directory='C:/Users/ahmad/Desktop/CS240 - Bachelor of Information Technology/Semester 6/DSC650 - Data Technology and Future Emergence/Assessments (Tests, Assignments and Projects)/Assessment 3 - Group Project/assets' filename='edited_property_kl.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1icjivs0rr9uil134vvvv0c6ix12' name='edited_property_kl.csv' table='[edited_property_kl#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='string' name='Location' ordinal='0' />
+            <column datatype='integer' name='Price' ordinal='1' />
+            <column datatype='integer' name='Rooms' ordinal='2' />
+            <column datatype='integer' name='Bathrooms' ordinal='3' />
+            <column datatype='integer' name='Car Parks' ordinal='4' />
+            <column datatype='string' name='Property Type' ordinal='5' />
+            <column datatype='string' name='Size' ordinal='6' />
+            <column datatype='string' name='Furnishing' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1icjivs0rr9uil134vvvv0c6ix12' name='edited_property_kl.csv' table='[edited_property_kl#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='string' name='Location' ordinal='0' />
+            <column datatype='integer' name='Price' ordinal='1' />
+            <column datatype='integer' name='Rooms' ordinal='2' />
+            <column datatype='integer' name='Bathrooms' ordinal='3' />
+            <column datatype='integer' name='Car Parks' ordinal='4' />
+            <column datatype='string' name='Property Type' ordinal='5' />
+            <column datatype='string' name='Size' ordinal='6' />
+            <column datatype='string' name='Furnishing' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;RM&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_MY&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rooms]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Rooms</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bathrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bathrooms]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Bathrooms</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Car Parks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Car Parks]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Car Parks</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Type]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Property Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Size]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Size</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Furnishing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Furnishing]</local-name>
+            <parent-name>[edited_property_kl.csv]</parent-name>
+            <remote-alias>Furnishing</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Furnishing]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='3.1884000000000001' />
+          <semantic-value key='&quot;Alam Damai&quot;' value='3.0600999999999998' />
+          <semantic-value key='&quot;Ampang&quot;' value='3.1490999999999998' />
+          <semantic-value key='&quot;Ampang Hilir&quot;' value='3.1539999999999999' />
+          <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='3.0472999999999999' />
+          <semantic-value key='&quot;Bandar Menjalara&quot;' value='3.1939000000000002' />
+          <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='3.1926000000000001' />
+          <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='3.0720000000000001' />
+          <semantic-value key='&quot;Bangsar&quot;' value='3.129' />
+          <semantic-value key='&quot;Bangsar South&quot;' value='3.1105999999999998' />
+          <semantic-value key='&quot;Batu Caves&quot;' value='3.2378999999999998' />
+          <semantic-value key='&quot;Brickfields&quot;' value='3.1292' />
+          <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='3.1377999999999999' />
+          <semantic-value key='&quot;Bukit Bintang&quot;' value='3.1467999999999998' />
+          <semantic-value key='&quot;Bukit Jalil&quot;' value='3.0587' />
+          <semantic-value key='&quot;Bukit Kiara&quot;' value='3.1421999999999999' />
+          <semantic-value key='&quot;Bukit Ledang&quot;' value='3.1500020000000002' />
+          <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='3.1665000000000001' />
+          <semantic-value key='&quot;Chan Sow Lin&quot;' value='3.1221999999999999' />
+          <semantic-value key='&quot;Cheras&quot;' value='3.1067999999999998' />
+          <semantic-value key='&quot;City Centre&quot;' value='3.1577639999999998' />
+          <semantic-value key='&quot;Country Heights Damansara&quot;' value='3.1783999999999999' />
+          <semantic-value key='&quot;Cyberjaya&quot;' value='2.9213' />
+          <semantic-value key='&quot;Damansara&quot;' value='3.0941000000000001' />
+          <semantic-value key='&quot;Damansara Heights&quot;' value='3.1490999999999998' />
+          <semantic-value key='&quot;Desa Pandan&quot;' value='3.1469999999999998' />
+          <semantic-value key='&quot;Desa ParkCity&quot;' value='3.1861999999999999' />
+          <semantic-value key='&quot;Desa Petaling&quot;' value='3.0834999999999999' />
+          <semantic-value key='&quot;Dutamas&quot;' value='3.1779999999999999' />
+          <semantic-value key='&quot;Federal Hill&quot;' value='3.1377999999999999' />
+          <semantic-value key='&quot;Gombak&quot;' value='3.2534999999999998' />
+          <semantic-value key='&quot;Gurney&quot;' value='3.1703000000000001' />
+          <semantic-value key='&quot;Petaling Jaya&quot;' value='3.1278999999999999' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='101.62779999999999' />
+          <semantic-value key='&quot;Alam Damai&quot;' value='101.7407' />
+          <semantic-value key='&quot;Ampang&quot;' value='101.7625' />
+          <semantic-value key='&quot;Ampang Hilir&quot;' value='101.74460000000001' />
+          <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='101.74079999999999' />
+          <semantic-value key='&quot;Bandar Menjalara&quot;' value='101.6309' />
+          <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='101.6105' />
+          <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='101.70959999999999' />
+          <semantic-value key='&quot;Bangsar&quot;' value='101.6798' />
+          <semantic-value key='&quot;Bangsar South&quot;' value='101.66630000000001' />
+          <semantic-value key='&quot;Batu Caves&quot;' value='101.684' />
+          <semantic-value key='&quot;Brickfields&quot;' value='101.6861' />
+          <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='101.6794' />
+          <semantic-value key='&quot;Bukit Bintang&quot;' value='101.71129999999999' />
+          <semantic-value key='&quot;Bukit Jalil&quot;' value='101.6917' />
+          <semantic-value key='&quot;Bukit Kiara&quot;' value='101.6444' />
+          <semantic-value key='&quot;Bukit Ledang&quot;' value='101.6738347' />
+          <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='101.6828' />
+          <semantic-value key='&quot;Chan Sow Lin&quot;' value='101.7153' />
+          <semantic-value key='&quot;Cheras&quot;' value='101.7259' />
+          <semantic-value key='&quot;City Centre&quot;' value='101.711861' />
+          <semantic-value key='&quot;Country Heights Damansara&quot;' value='101.6211' />
+          <semantic-value key='&quot;Cyberjaya&quot;' value='101.6559' />
+          <semantic-value key='&quot;Damansara&quot;' value='101.5475' />
+          <semantic-value key='&quot;Damansara Heights&quot;' value='101.6534' />
+          <semantic-value key='&quot;Desa Pandan&quot;' value='101.7373' />
+          <semantic-value key='&quot;Desa ParkCity&quot;' value='101.62990000000001' />
+          <semantic-value key='&quot;Desa Petaling&quot;' value='101.7105' />
+          <semantic-value key='&quot;Dutamas&quot;' value='101.661' />
+          <semantic-value key='&quot;Federal Hill&quot;' value='101.6794' />
+          <semantic-value key='&quot;Gombak&quot;' value='101.6533' />
+          <semantic-value key='&quot;Gurney&quot;' value='101.7274' />
+          <semantic-value key='&quot;Petaling Jaya&quot;' value='101.5945' />
+        </semantic-values>
+      </column>
+      <column datatype='string' name='[Property Type]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='edited_property_kl.csv' datatype='table' name='[__tableau_internal_object_id__].[edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549]' role='measure' type='quantitative' />
+      <column-instance column='[Furnishing]' derivation='None' name='[none:Furnishing:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Property Type]' derivation='None' name='[none:Property Type:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Location:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cheras&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;KLCC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Property Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;2-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;3.5-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bungalow Land&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Residential Land (EndLot)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Townhouse (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Apartment (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Condominium (Triplex)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Serviced Residence (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1.5-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;3-sty Terrace/Link House (Triplex)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bungalow (Duplex)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Flat (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Townhouse&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;4-sty Terrace/Link House (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Condominium&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Semi-detached House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;4-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bungalow Land (Corner)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Residential Land (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1.5-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3.5-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bungalow (EndLot)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Flat (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Townhouse (Corner)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;2.5-sty Terrace/Link House (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Apartment (EndLot)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Condominium (SOHO)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Serviced Residence (EndLot)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Apartment (Studio)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Flat&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Serviced Residence (SOHO)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2.5-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Apartment (Corner)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Condominium (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Serviced Residence (Corner)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1.5-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;3.5-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bungalow (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Residential Land&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Townhouse (Duplex)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2-sty Terrace/Link House (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;4.5-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Condominium (Corner)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Semi-detached House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2.5-sty Terrace/Link House&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;4.5-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Condominium (Duplex)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Semi-detached House (Triplex)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;2.5-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Apartment (Duplex)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Condominium (Penthouse)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Serviced Residence (Duplex)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;2.5-sty Terrace/Link House (Triplex)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Apartment (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Condominium (Studio)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Serviced Residence (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2-sty Terrace/Link House (Duplex)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bungalow Land (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Semi-detached House&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1.5-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;3.5-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bungalow (Triplex)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Residential Land (Corner)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Townhouse (EndLot)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bungalow&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Flat (Corner)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Serviced Residence (Studio)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2.5-sty Terrace/Link House (Corner)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Apartment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Condominium (EndLot)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Serviced Residence&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2-sty Terrace/Link House (EndLot)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;4-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cluster House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Semi-detached House (Corner)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3-sty Terrace/Link House (Intermediate)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bungalow (Corner)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Flat (EndLot)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Serviced Residence (Triplex)&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Furnishing:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fully Furnished&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Unfurnished&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Partly Furnished&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;Malaysia&quot;' />
+        <semantic-value key='[State].[Name]' value='&quot;Wilayah Persekutuan Kuala Lumpur&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='edited_property_kl.csv' id='edited_property_kl.csv_0F50905F67EF4531A7084417AF2C3549'>
+            <properties context=''>
+              <relation connection='textscan.1icjivs0rr9uil134vvvv0c6ix12' name='edited_property_kl.csv' table='[edited_property_kl#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+                  <column datatype='string' name='Location' ordinal='0' />
+                  <column datatype='integer' name='Price' ordinal='1' />
+                  <column datatype='integer' name='Rooms' ordinal='2' />
+                  <column datatype='integer' name='Bathrooms' ordinal='3' />
+                  <column datatype='integer' name='Car Parks' ordinal='4' />
+                  <column datatype='string' name='Property Type' ordinal='5' />
+                  <column datatype='string' name='Size' ordinal='6' />
+                  <column datatype='string' name='Furnishing' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Number Property Scattered Around Kuala Lumpur</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='edited_property_kl' name='federated.0bmdmns0trt30418twafw1x2pkcp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bmdmns0trt30418twafw1x2pkcp'>
+            <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='3.1884000000000001' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='3.0600999999999998' />
+                <semantic-value key='&quot;Ampang&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='3.1539999999999999' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='3.0472999999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='3.1939000000000002' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='3.1926000000000001' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='3.0720000000000001' />
+                <semantic-value key='&quot;Bangsar&quot;' value='3.129' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='3.1105999999999998' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='3.2378999999999998' />
+                <semantic-value key='&quot;Brickfields&quot;' value='3.1292' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='3.1467999999999998' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='3.0587' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='3.1421999999999999' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='3.1500020000000002' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='3.1665000000000001' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='3.1221999999999999' />
+                <semantic-value key='&quot;Cheras&quot;' value='3.1067999999999998' />
+                <semantic-value key='&quot;City Centre&quot;' value='3.1577639999999998' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='3.1783999999999999' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='2.9213' />
+                <semantic-value key='&quot;Damansara&quot;' value='3.0941000000000001' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='3.1469999999999998' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='3.1861999999999999' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='3.0834999999999999' />
+                <semantic-value key='&quot;Dutamas&quot;' value='3.1779999999999999' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Gombak&quot;' value='3.2534999999999998' />
+                <semantic-value key='&quot;Gurney&quot;' value='3.1703000000000001' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='3.1278999999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='101.62779999999999' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='101.7407' />
+                <semantic-value key='&quot;Ampang&quot;' value='101.7625' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='101.74460000000001' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='101.74079999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='101.6309' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='101.6105' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='101.70959999999999' />
+                <semantic-value key='&quot;Bangsar&quot;' value='101.6798' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='101.66630000000001' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='101.684' />
+                <semantic-value key='&quot;Brickfields&quot;' value='101.6861' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='101.6794' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='101.71129999999999' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='101.6917' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='101.6444' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='101.6738347' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='101.6828' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='101.7153' />
+                <semantic-value key='&quot;Cheras&quot;' value='101.7259' />
+                <semantic-value key='&quot;City Centre&quot;' value='101.711861' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='101.6211' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='101.6559' />
+                <semantic-value key='&quot;Damansara&quot;' value='101.5475' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='101.6534' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='101.7373' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='101.62990000000001' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='101.7105' />
+                <semantic-value key='&quot;Dutamas&quot;' value='101.661' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='101.6794' />
+                <semantic-value key='&quot;Gombak&quot;' value='101.6533' />
+                <semantic-value key='&quot;Gurney&quot;' value='101.7274' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='101.5945' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Property Type]' role='dimension' type='nominal' />
+            <column-instance column='[Property Type]' derivation='Count' name='[cnt:Property Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Bangsar&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Bukit Jalil&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Cheras&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Damansara Heights&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Desa ParkCity&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Jalan Klang Lama (Old Klang Road)&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Kepong&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;KLCC&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Mont Kiara&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Setapak&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0bmdmns0trt30418twafw1x2pkcp].[cnt:Property Type:qk]' field-type='quantitative' max='3668' min='62' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</rows>
+        <cols>[federated.0bmdmns0trt30418twafw1x2pkcp].[cnt:Property Type:qk]</cols>
+      </table>
+      <simple-id uuid='{43EC5840-690C-453B-80C3-387625271B7D}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Price for Apartment in Kuala Lumpur</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='edited_property_kl' name='federated.0bmdmns0trt30418twafw1x2pkcp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bmdmns0trt30418twafw1x2pkcp'>
+            <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='3.1884000000000001' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='3.0600999999999998' />
+                <semantic-value key='&quot;Ampang&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='3.1539999999999999' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='3.0472999999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='3.1939000000000002' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='3.1926000000000001' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='3.0720000000000001' />
+                <semantic-value key='&quot;Bangsar&quot;' value='3.129' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='3.1105999999999998' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='3.2378999999999998' />
+                <semantic-value key='&quot;Brickfields&quot;' value='3.1292' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='3.1467999999999998' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='3.0587' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='3.1421999999999999' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='3.1500020000000002' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='3.1665000000000001' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='3.1221999999999999' />
+                <semantic-value key='&quot;Cheras&quot;' value='3.1067999999999998' />
+                <semantic-value key='&quot;City Centre&quot;' value='3.1577639999999998' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='3.1783999999999999' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='2.9213' />
+                <semantic-value key='&quot;Damansara&quot;' value='3.0941000000000001' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='3.1469999999999998' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='3.1861999999999999' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='3.0834999999999999' />
+                <semantic-value key='&quot;Dutamas&quot;' value='3.1779999999999999' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Gombak&quot;' value='3.2534999999999998' />
+                <semantic-value key='&quot;Gurney&quot;' value='3.1703000000000001' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='3.1278999999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='101.62779999999999' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='101.7407' />
+                <semantic-value key='&quot;Ampang&quot;' value='101.7625' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='101.74460000000001' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='101.74079999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='101.6309' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='101.6105' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='101.70959999999999' />
+                <semantic-value key='&quot;Bangsar&quot;' value='101.6798' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='101.66630000000001' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='101.684' />
+                <semantic-value key='&quot;Brickfields&quot;' value='101.6861' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='101.6794' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='101.71129999999999' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='101.6917' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='101.6444' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='101.6738347' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='101.6828' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='101.7153' />
+                <semantic-value key='&quot;Cheras&quot;' value='101.7259' />
+                <semantic-value key='&quot;City Centre&quot;' value='101.711861' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='101.6211' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='101.6559' />
+                <semantic-value key='&quot;Damansara&quot;' value='101.5475' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='101.6534' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='101.7373' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='101.62990000000001' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='101.7105' />
+                <semantic-value key='&quot;Dutamas&quot;' value='101.661' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='101.6794' />
+                <semantic-value key='&quot;Gombak&quot;' value='101.6533' />
+                <semantic-value key='&quot;Gurney&quot;' value='101.7274' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='101.5945' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Property Type]' role='dimension' type='nominal' />
+            <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Property Type]' derivation='None' name='[none:Property Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Bangsar&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Bukit Jalil&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Cheras&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Damansara Heights&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Desa ParkCity&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Jalan Klang Lama (Old Klang Road)&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Kepong&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;KLCC&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Mont Kiara&quot;' />
+              <groupfilter function='member' level='[none:Location:nk]' member='&quot;Setapak&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]'>
+            <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Apartment&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</column>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0bmdmns0trt30418twafw1x2pkcp].[avg:Price:qk]' scope='rows' value='Average Price' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0bmdmns0trt30418twafw1x2pkcp].[avg:Price:qk]</rows>
+        <cols>([federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk] / [federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk])</cols>
+      </table>
+      <simple-id uuid='{AD61A09B-B60A-4720-8E42-A12E9ED4E66F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Total Number of Furnishing for Condominium in Mont Kiara</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='edited_property_kl' name='federated.0bmdmns0trt30418twafw1x2pkcp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bmdmns0trt30418twafw1x2pkcp'>
+            <column datatype='string' name='[Furnishing]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='3.1884000000000001' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='3.0600999999999998' />
+                <semantic-value key='&quot;Ampang&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='3.1539999999999999' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='3.0472999999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='3.1939000000000002' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='3.1926000000000001' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='3.0720000000000001' />
+                <semantic-value key='&quot;Bangsar&quot;' value='3.129' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='3.1105999999999998' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='3.2378999999999998' />
+                <semantic-value key='&quot;Brickfields&quot;' value='3.1292' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='3.1467999999999998' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='3.0587' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='3.1421999999999999' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='3.1500020000000002' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='3.1665000000000001' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='3.1221999999999999' />
+                <semantic-value key='&quot;Cheras&quot;' value='3.1067999999999998' />
+                <semantic-value key='&quot;City Centre&quot;' value='3.1577639999999998' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='3.1783999999999999' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='2.9213' />
+                <semantic-value key='&quot;Damansara&quot;' value='3.0941000000000001' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='3.1469999999999998' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='3.1861999999999999' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='3.0834999999999999' />
+                <semantic-value key='&quot;Dutamas&quot;' value='3.1779999999999999' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Gombak&quot;' value='3.2534999999999998' />
+                <semantic-value key='&quot;Gurney&quot;' value='3.1703000000000001' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='3.1278999999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='101.62779999999999' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='101.7407' />
+                <semantic-value key='&quot;Ampang&quot;' value='101.7625' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='101.74460000000001' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='101.74079999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='101.6309' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='101.6105' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='101.70959999999999' />
+                <semantic-value key='&quot;Bangsar&quot;' value='101.6798' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='101.66630000000001' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='101.684' />
+                <semantic-value key='&quot;Brickfields&quot;' value='101.6861' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='101.6794' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='101.71129999999999' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='101.6917' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='101.6444' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='101.6738347' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='101.6828' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='101.7153' />
+                <semantic-value key='&quot;Cheras&quot;' value='101.7259' />
+                <semantic-value key='&quot;City Centre&quot;' value='101.711861' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='101.6211' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='101.6559' />
+                <semantic-value key='&quot;Damansara&quot;' value='101.5475' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='101.6534' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='101.7373' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='101.62990000000001' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='101.7105' />
+                <semantic-value key='&quot;Dutamas&quot;' value='101.661' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='101.6794' />
+                <semantic-value key='&quot;Gombak&quot;' value='101.6533' />
+                <semantic-value key='&quot;Gurney&quot;' value='101.7274' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='101.5945' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Property Type]' role='dimension' type='nominal' />
+            <column-instance column='[Furnishing]' derivation='Count' name='[cnt:Furnishing:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Furnishing]' derivation='None' name='[none:Furnishing:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Property Type]' derivation='None' name='[none:Property Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Furnishing]' derivation='Count' name='[pcto:cnt:Furnishing:qk:7]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='RowInPane' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]'>
+            <groupfilter function='member' level='[none:Location:nk]' member='&quot;Mont Kiara&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]'>
+            <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Condominium&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</column>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='460' />
+            <format attr='cell-h' value='380' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0bmdmns0trt30418twafw1x2pkcp].[cnt:Furnishing:qk]' value='' />
+            <format attr='text-format' field='[federated.0bmdmns0trt30418twafw1x2pkcp].[pcto:cnt:Furnishing:qk:7]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Furnishing:nk]' />
+              <wedge-size column='[federated.0bmdmns0trt30418twafw1x2pkcp].[pcto:cnt:Furnishing:qk:7]' />
+              <size column='[federated.0bmdmns0trt30418twafw1x2pkcp].[cnt:Furnishing:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk] / [federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk])</cols>
+      </table>
+      <simple-id uuid='{4B042949-FDD1-4BD6-8488-74F7CC0814B1}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Maximum, Minimum and Average Price for Apartment, Bungalow, Condominium and Flat in KLCC</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='edited_property_kl' name='federated.0bmdmns0trt30418twafw1x2pkcp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bmdmns0trt30418twafw1x2pkcp'>
+            <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='3.1884000000000001' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='3.0600999999999998' />
+                <semantic-value key='&quot;Ampang&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='3.1539999999999999' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='3.0472999999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='3.1939000000000002' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='3.1926000000000001' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='3.0720000000000001' />
+                <semantic-value key='&quot;Bangsar&quot;' value='3.129' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='3.1105999999999998' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='3.2378999999999998' />
+                <semantic-value key='&quot;Brickfields&quot;' value='3.1292' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='3.1467999999999998' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='3.0587' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='3.1421999999999999' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='3.1500020000000002' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='3.1665000000000001' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='3.1221999999999999' />
+                <semantic-value key='&quot;Cheras&quot;' value='3.1067999999999998' />
+                <semantic-value key='&quot;City Centre&quot;' value='3.1577639999999998' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='3.1783999999999999' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='2.9213' />
+                <semantic-value key='&quot;Damansara&quot;' value='3.0941000000000001' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='3.1490999999999998' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='3.1469999999999998' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='3.1861999999999999' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='3.0834999999999999' />
+                <semantic-value key='&quot;Dutamas&quot;' value='3.1779999999999999' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='3.1377999999999999' />
+                <semantic-value key='&quot;Gombak&quot;' value='3.2534999999999998' />
+                <semantic-value key='&quot;Gurney&quot;' value='3.1703000000000001' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='3.1278999999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;ADIVA Desa ParkCity&quot;' value='101.62779999999999' />
+                <semantic-value key='&quot;Alam Damai&quot;' value='101.7407' />
+                <semantic-value key='&quot;Ampang&quot;' value='101.7625' />
+                <semantic-value key='&quot;Ampang Hilir&quot;' value='101.74460000000001' />
+                <semantic-value key='&quot;Bandar Damai Perdana&quot;' value='101.74079999999999' />
+                <semantic-value key='&quot;Bandar Menjalara&quot;' value='101.6309' />
+                <semantic-value key='&quot;Bandar Sri Damansara&quot;' value='101.6105' />
+                <semantic-value key='&quot;Bandar Tasik Selatan&quot;' value='101.70959999999999' />
+                <semantic-value key='&quot;Bangsar&quot;' value='101.6798' />
+                <semantic-value key='&quot;Bangsar South&quot;' value='101.66630000000001' />
+                <semantic-value key='&quot;Batu Caves&quot;' value='101.684' />
+                <semantic-value key='&quot;Brickfields&quot;' value='101.6861' />
+                <semantic-value key='&quot;Bukit  Persekutuan&quot;' value='101.6794' />
+                <semantic-value key='&quot;Bukit Bintang&quot;' value='101.71129999999999' />
+                <semantic-value key='&quot;Bukit Jalil&quot;' value='101.6917' />
+                <semantic-value key='&quot;Bukit Kiara&quot;' value='101.6444' />
+                <semantic-value key='&quot;Bukit Ledang&quot;' value='101.6738347' />
+                <semantic-value key='&quot;Bukit Tunku (Kenny Hills)&quot;' value='101.6828' />
+                <semantic-value key='&quot;Chan Sow Lin&quot;' value='101.7153' />
+                <semantic-value key='&quot;Cheras&quot;' value='101.7259' />
+                <semantic-value key='&quot;City Centre&quot;' value='101.711861' />
+                <semantic-value key='&quot;Country Heights Damansara&quot;' value='101.6211' />
+                <semantic-value key='&quot;Cyberjaya&quot;' value='101.6559' />
+                <semantic-value key='&quot;Damansara&quot;' value='101.5475' />
+                <semantic-value key='&quot;Damansara Heights&quot;' value='101.6534' />
+                <semantic-value key='&quot;Desa Pandan&quot;' value='101.7373' />
+                <semantic-value key='&quot;Desa ParkCity&quot;' value='101.62990000000001' />
+                <semantic-value key='&quot;Desa Petaling&quot;' value='101.7105' />
+                <semantic-value key='&quot;Dutamas&quot;' value='101.661' />
+                <semantic-value key='&quot;Federal Hill&quot;' value='101.6794' />
+                <semantic-value key='&quot;Gombak&quot;' value='101.6533' />
+                <semantic-value key='&quot;Gurney&quot;' value='101.7274' />
+                <semantic-value key='&quot;Petaling Jaya&quot;' value='101.5945' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Property Type]' role='dimension' type='nominal' />
+            <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price]' derivation='Max' name='[max:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price]' derivation='Min' name='[min:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Property Type]' derivation='None' name='[none:Property Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bmdmns0trt30418twafw1x2pkcp].[avg:Price:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bmdmns0trt30418twafw1x2pkcp].[max:Price:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bmdmns0trt30418twafw1x2pkcp].[min:Price:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]'>
+            <groupfilter function='member' level='[none:Location:nk]' member='&quot;KLCC&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Apartment&quot;' />
+              <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Bungalow&quot;' />
+              <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Condominium&quot;' />
+              <groupfilter function='member' level='[none:Property Type:nk]' member='&quot;Flat&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</column>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</column>
+            <column>[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='60' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0bmdmns0trt30418twafw1x2pkcp].[Multiple Values]</rows>
+        <cols>([federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk] / ([federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk] / [federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{7B468ECA-1424-4D30-A9B9-AE159F652260}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FE1C07FE-B3BC-4E86-B9CA-D0B8D8A1556F}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]' type='filter' />
+            <card param='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4F2515FB-316C-4F49-B07B-75FDF0D7F19E}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Furnishing:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0bmdmns0trt30418twafw1x2pkcp].[cnt:Furnishing:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Furnishing:nk]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FB3E9109-F010-4FAD-ADE5-5D193BB389DE}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[:Measure Names]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Location:nk]</field>
+            <field>[federated.0bmdmns0trt30418twafw1x2pkcp].[none:Property Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4C0E5428-527D-401F-A1DA-72FC0720C622}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      SAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      GuFIiP8L8Gf7XkEsgHIAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

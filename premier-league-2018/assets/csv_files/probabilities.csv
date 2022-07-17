@@ -1,0 +1,21 @@
+Club,Win Probability,Draw Probability,Loss Probability
+Man City,0.84,0.05,0.11
+Liverpool,0.79,0.18,0.03
+Chelsea,0.55,0.24,0.21
+Tottenham,0.61,0.05,0.34
+Arsenal,0.55,0.18,0.26
+Man United,0.5,0.24,0.26
+Wolves,0.42,0.24,0.34
+Everton,0.39,0.24,0.37
+Leicester,0.39,0.18,0.42
+West Ham,0.39,0.18,0.42
+Watford,0.37,0.21,0.42
+Crystal Palace,0.37,0.18,0.45
+Newcastle,0.32,0.24,0.45
+Bournemouth,0.34,0.16,0.5
+Burnley,0.29,0.18,0.53
+Southampton,0.24,0.32,0.45
+Brighton,0.24,0.24,0.53
+Cardiff,0.26,0.11,0.63
+Fulham,0.18,0.13,0.68
+Huddersfield,0.08,0.18,0.74
